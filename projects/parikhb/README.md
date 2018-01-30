@@ -1,2 +1,2 @@
-My name is BHAVYA PARIKH
-My onid is parikhb
+My name is BHAVYA PARIKH and
+my onid is parikhb 
