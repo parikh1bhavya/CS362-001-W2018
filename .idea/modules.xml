@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="ProjectModuleManager">
-    <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/CS362-001-W2018.iml" filepath="$PROJECT_DIR$/.idea/CS362-001-W2018.iml" />
-      <module fileurl="file://$PROJECT_DIR$/projects/parikhb/assignment-3/Calendar/Calendar.iml" filepath="$PROJECT_DIR$/projects/parikhb/assignment-3/Calendar/Calendar.iml" />
-    </modules>
-  </component>
-</project>
