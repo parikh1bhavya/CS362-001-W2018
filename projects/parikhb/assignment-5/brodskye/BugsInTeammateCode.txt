@@ -1,0 +1,22 @@
+Bug Reports
+
+* Bug 1
+    Appt.java, isValid() :Line 115
+    if(startHour<0 && startHour>23) //changed || to &&
+
+      This bug causes the startHour to be less than zero and more than 23
+      at the same time which is impossible, as by replacing the || to && no
+      mater what value its never going to be invalid. Thus, this causes a chain
+      reaction in the application, causing other tests methods and functions
+      to crash.
+
+* Bug 2
+  CalDay.java, setAppts() :Line 117
+  if(appts!=null || appts.size()==0) //changed && to ||
+
+    This bug causes the appointment to not be null or equal to size zero, by
+    doing this causes the it set an appointment even when either of the
+    condition are being fulfilled.As by replacing the && to || even if either of
+    the condition is fulfilled it will set an appointment which will be invlalid
+    Thus, this causes a chain reaction in the application, causing other tests
+    methods and functions to crash.
